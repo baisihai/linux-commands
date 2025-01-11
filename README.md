@@ -8,6 +8,38 @@ This reference lists the commonly used commands and is not exhaustive. Where ava
 
 ## Commands
 
+### File and Directory Operations
+- `ls` - List files and directories.
+- `cd` - Change directory.
+- `pwd` - Print current working directory.
+- `mkdir` - Create a new directory.
+- `rm` - Remove files and directories.
+- `cp` - Copy files and directories.
+- `mv` - Move/rename files and directories.
+- `touch` - Create an empty file or update file timestamps.
+- `cat` - View the contents of a file.
+- `head` - Display the first few lines of a file.
+- `tail` - Display the last few lines of a file.
+- `ln` - Create links between files.
+- `find` - Search for files and directories.
+
+### File Permissions and Ownership
+- `chmod` - Change file permissions.
+- `chown` - Change file ownership.
+- `chgrp` - Change group ownership.
+- `umask` - Set default permissions.
+- `sudo` - Execute a command as another user.
+- `su` - Switch to another user.
+- `visudo` - Edit sudoers file.
+
+### Text Editors
+- `nano` - Simple text editor.
+- `vim` or `vi` - Powerful text editor.
+- `emacs` - Extensible text editor.
+- `gedit` - GNOME text editor.
+- `kate` - KDE text editor.
+- `sublime-text` - Sublime Text editor.
+
 ### Disk Management
 - `fdisk` - Partition table manipulator.
 - `mkfs` - Create a file system.
@@ -46,30 +78,6 @@ This reference lists the commonly used commands and is not exhaustive. Where ava
 - `curl` - Transfer data with URLs.
 - `wget` - Download files from the internet.
 
-### File and Directory Operations
-- `ls` - List files and directories.
-- `cd` - Change directory.
-- `pwd` - Print current working directory.
-- `mkdir` - Create a new directory.
-- `rm` - Remove files and directories.
-- `cp` - Copy files and directories.
-- `mv` - Move/rename files and directories.
-- `touch` - Create an empty file or update file timestamps.
-- `cat` - View the contents of a file.
-- `head` - Display the first few lines of a file.
-- `tail` - Display the last few lines of a file.
-- `ln` - Create links between files.
-- `find` - Search for files and directories.
-
-### File Permissions and Ownership
-- `chmod` - Change file permissions.
-- `chown` - Change file ownership.
-- `chgrp` - Change group ownership.
-- `umask` - Set default permissions.
-- `sudo` - Execute a command as another user.
-- `su` - Switch to another user.
-- `visudo` - Edit sudoers file.
-
 ### System Configuration
 - `hostname` - Display or set the system's hostname.
 - `date` - Display or set the system date and time.
@@ -86,14 +94,6 @@ This reference lists the commonly used commands and is not exhaustive. Where ava
 - `iptables` - Configure firewall rules (legacy).
 - `ufw` - Uncomplicated Firewall (UFW) management.
 - `firewalld` - Firewall management (systemd-based).
-
-### Text Editors
-- `nano` - Simple text editor.
-- `vim` or `vi` - Powerful text editor.
-- `emacs` - Extensible text editor.
-- `gedit` - GNOME text editor.
-- `kate` - KDE text editor.
-- `sublime-text` - Sublime Text editor.
 
 ### Disk Usage Analysis
 - `du` - Estimate file and directory space usage.
