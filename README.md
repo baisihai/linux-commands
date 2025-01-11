@@ -1,8 +1,8 @@
-# ![alt text](./media/linux-logo.png?raw=true) Linux Commands
+# ![alt text](./media/linux-logo.png?raw=true) Linux Commands Reference
 
 ## Introduction
 
-Welcome to the Linux Commands reference! 
+Welcome to the Linux Commands Reference! 
 
 This reference lists the commonly used commands and is not exhaustive. Where available, the individual command files will provide examples of usage for your reference. Linux commands have various options and arguments. It's essential to consult the Linux command's [manual page](https://www.linux.org/forums/linux-beginner-tutorials.123) for detailed information and usage. Enjoy!
 
