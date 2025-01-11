@@ -17,7 +17,6 @@ This reference lists the commonly used commands and is not exhaustive. Where ava
 - `cp` - Copy files and directories.
 - `mv` - Move/rename files and directories.
 - `touch` - Create an empty file or update file timestamps.
-- `cat` - View the contents of a file.
 - `head` - Display the first few lines of a file.
 - `tail` - Display the last few lines of a file.
 - `ln` - Create links between files.
