@@ -14,6 +14,7 @@ This reference lists the commonly used commands and is not exhaustive. Where ava
 - `pwd` - Print current working directory.
 - `mkdir` - Create a new directory.
 - `rm` - Remove files and directories.
+- `rmdir` - Remove empty directories.
 - `cp` - Copy files and directories.
 - `mv` - Move/rename files and directories.
 - `touch` - Create an empty file or update file timestamps.
