@@ -17,7 +17,7 @@ Option      Detail
 This command creates a copy of the `source_file` at the specified `destination`. If the destination is a directory, the file is copied into that directory.
 
 ## Examples
-**1. Copy a files.**
+**1. Copy a file.**
 ```bash
 cp Src_file Dest_file
 ```
@@ -33,7 +33,7 @@ cp Src_file1 Src_file2 Src_file3 Dest_directory
 ```
 <br/>
   
-**3. Copy Directories.**  
+**3. Copy directories.**  
 In this mode, if the `cp` command contains two directory names, it copies all files from the source directory to the destination directory. `-R` option is typically used to copy directories recursively.
 
 ```bash
@@ -60,11 +60,7 @@ cp -f Src_file Dest_file
 <br/>
 
 **6. Copy a directory with `-r` or `-R` option**  
-With this option, `cp` command shows its recursive behavior by copying the entire directory structure recursively.
-```bash
-cp -r [Src_directory] [Dest_directory]
-```
-
+With `-r` or `-R` option, `cp` can copy entire directory structures (files, and all the subdirectories) from one place to another in a recursive manner.
 ```bash
 cp -r Src_dir Dest_dir
 ```
