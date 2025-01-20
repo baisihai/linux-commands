@@ -19,40 +19,40 @@ Options	Description
 ```
 
 ## Examples
-1. List files and directories.
+**1. List files and directories.**
 ```bash
 ls
 ```
 
-2. Display all information about files/directories.
+**2. Display all information about files/directories.**
 ```bash
 ls -l
 ```
 
-3. List files and directories, including all the hidden files in the directory.
+**3. List files and directories, including all the hidden files in the directory.**
 ```bash
 ls -a
 ```
 
-4. Display file sizes in a human-readable format.
+**4. Display file sizes in a human-readable format.**
 
 ```bash
 ls -lh
 ```
 
-5. Order files based on last modified time.
+**5. Order files based on last modified time.**
 
 ```bash
 ls -lt
 ```
 
-6. Order files based on last modified time (in reverse order).
+**6. Order files based on last modified time (in reverse order).**
 
 ```bash
 ls -ltr 
 ```
 
-7. List files and directories in /etc directory.
+**7. List files and directories in /etc directory.**
 
 ```bash
 ls /etc
