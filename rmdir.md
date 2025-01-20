@@ -16,27 +16,27 @@ Options                     Description
 The rmdir command won’t work if the directory contains subfolders. To force the deletion, add the –p option. Note that you must own the item you want to remove or use sudo instead.
 
 ## Examples
-1. Deletes the empty directory named "temp".
+**1. Deletes the empty directory named "temp".**
 ```bash
 rmdir temp
 ```
 
-2.  Removing more than one directory at a time.
+**2.  Removing more than one directory at a time.**
 ```bash
 rmdir temp1 temp2 temp3
 ```
 
-3. Delete a directory, including all the subdirectories.
+**3. Delete a directory, including all the subdirectories.**
 ```bash
 rmdir -p temp1/temp2/temp3/...../tempN
 ```
 
-4. Display the message after removing each directory.
+**4. Display the message after removing each directory.**
 ```bash
 rmdir -v temp1 temp2 temp3
 ```
 
-5. Remove multiple directories with the same expression
+**5. Remove multiple directories with the same expression.**
 ```bash
 ls 
 temp1
@@ -49,8 +49,7 @@ rmdir: removing directory, 'temp2'
 rmdir: removing directory, 'temp3'
 ```
 
-6. Ignore the errors due to the non-empty directories.
-
+**6. Ignore the errors due to the non-empty directories.**  
 Sometimes we get the following error while removing a directory through the rmdir command:
 ```bash
 rmdir temp
