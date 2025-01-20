@@ -19,22 +19,22 @@ Options          Description
 ```
 
 ## Examples
-1. Create a new directory named "test".
+**1. Create a new directory named "test".**
 ```bash
 mkdir test
 ```
 
-2. Display a message for every directory created. In this example, 3 directories named "test1", "test2" and "test3" are created.
+**2. Display a message for every directory created. In this example, 3 directories named "test1", "test2" and "test3" are created.**
 ```bash
 mkdir -v test1 test2 test3
 ```
 
-3.  Create a new directory named "third", and to create parent directories as necessary. In this example, directories "first" and "second" are created if they do not exist.
+**3.  Create a new directory named "third", and to create parent directories as necessary. In this example, directories "first" and "second" are created if they do not exist.**
 ```bash
 mkdir -p first/second/third
 ```
 
-4.  Create a new directory named "test", and set the file modes (i.e. permissions).
+**4.  Create a new directory named "test", and set the file modes (i.e. permissions).**
 ```bash
 mkdir -m a=rwx test
 ```
