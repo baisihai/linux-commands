@@ -14,27 +14,27 @@ Options  Description
 ```
 
 ## Examples
-1. Deletes the file named "test.txt".
+**1. Deletes the file named "test.txt".**
 ```bash
 rm test.txt
 ```
 
-2.  Removing more than one file at a time
+**2.  Removing more than one file at a time.**
 ```bash
 rm test1.txt test2.txt test3.txt
 ```
 
-3. Deletes the directory “my_directory” and its contents.
+**3. Deletes the directory “my_directory” and its contents.**
 ```bash
 rm -r my_directory
 ```
 
-4. Forcefully deletes the file "test.txt" without confirmation.
+**4. Forcefully deletes the file "test.txt" without confirmation.**
 ```bash
 rm -f test.txt
 ```
 
-5. Deletes the file "test.txt" with user confirmation.
+**5. Deletes the file "test.txt" with user confirmation.**
 ```bash
 rm -i test.txt
 ```
